@@ -1,0 +1,141 @@
+HTML
+
+html element structure
+
+<name attr="somthing">value</name>
+
+the DOM
+
+html element
+	head
+		title
+	body
+
+content can be typed into an element
+
+paragraphs - p
+
+titles - h1 - for emphasis and titles
+
+italics/bold - i/b - can do inline emphasis
+
+lists 
+	ordered list - ol
+	unordered list - ul
+
+generic
+	div - page division
+	span - address inline content
+
+div/element ids
+
+links - a, href
+	- internal links to #id
+	- inter-site links to other files/pages
+	- external links to other places
+
+images - img - self closing tag, src, alt text
+
+image as link
+
+----
+
+cats of campus site
+- everyone writes their own funny thing that the cats do
+
+git + github 
+
+- create repo
+- creates initial commit (see history)
+- publish
+- enable pages
+
+show version control
+- make edit 
+- see change 
+- commit
+- make another change
+- commit
+- then push
+- see page update
+
+- have students clone my page
+
+
+---------------------
+
+
+CSS
+
+rule syntax: "property: value;"
+
+inline css w/ html style attr
+
+console and inspector
+
+link element to link to a stylesheet
+
+cascading means rules at the bottom override rules at the top
+
+Selectors:
+	- global
+	- class
+	- id
+	- multiple (comma separated)
+	- composite (like file path)
+
+fonts
+	- font family
+	- font-size
+	- rems vs pixels
+		- html element font size
+	- installing google font
+		@import statement
+
+colors
+	-convenient color package plugins for atom
+		-https://atom.io/packages/css-color-name
+		-https://atom.io/packages/pigments
+	- text
+	- background
+	- formats
+		- hex
+		- rgb (0-255)
+		- rgba (w/ opacity 0-1)
+
+box model
+	- border
+	- background color
+	- w/h
+		- units
+			- pixels
+			- percent
+			- calc
+		- min/max
+	- margin/padding
+
+document flow: rules that govern automatic layout.
+
+	- display 
+		- block
+			- fits content to box
+			- respects margin and padding
+			- gets it's own line
+		- inline
+			- fits box to content
+			- padding works, margin only works between horizontal items
+			- not on own line
+		- inline-block
+			- block that doesn't get it's own line
+
+	- position
+		- static
+		- relative
+			- original position still in document flow but can be offset
+				- offsets: t/b/l/r
+		- absolute
+			- taken out of document flow
+			- overlay
+			- relative to the first "relative" parent, which becomes a new coordinate context
+
+
